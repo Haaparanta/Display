@@ -1,2 +1,2 @@
 # Display
-Change display
+Change display from DP to HDMI
