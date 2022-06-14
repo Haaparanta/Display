@@ -48,8 +48,7 @@ def set_vcp_feature(monitor, code, value):
 # Switch to HDMI, wait for the user to press return and then back to DP
 for handle in _iter_physical_monitors(): #päänäyttö 1
     set_vcp_feature(handle, 0x60, 0x11) #Change input to HDMI
-    input("Press Enter to continue...")   
-    set_vcp_feature(handle, 0x60, 0x0F) #Change input to DisplayPort
+    # set_vcp_feature(handle, 0x60, 0x0F) #Change input to DisplayPort
     # 0xA0 0x6e
     
     
